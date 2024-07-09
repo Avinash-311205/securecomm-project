@@ -1,0 +1,45 @@
+I have added backend code and frontend in vs code. 
+I am adding other codes like:
+BACKEND
+1. Initialize the project and install dependencies:
+------------------------------------------------------------------------------
+mkdir securecomm-backend
+cd securecomm-backend
+npm init -y
+npm install express socket.io bcryptjs jsonwebtoken mongoose cors
+------------------------------------------------------------------------------
+
+FRONTEND
+1. Initialize the React project and install dependencies:
+------------------------------------------------------------------------------
+npx create-react-app securecomm-frontend
+cd securecomm-frontend
+npm install socket.io-client axios
+------------------------------------------------------------------------------
+
+Instructions to Run
+
+Run the backend:
+------------------------------------------------------------------------------
+cd securecomm-backend
+node server.js
+------------------------------------------------------------------------------
+Run the frontend:
+------------------------------------------------------------------------------
+cd securecomm-frontend
+npm start
+------------------------------------------------------------------------------
+
+Features and Future Enhancements
+
+Encryption: Implement proper encryption mechanisms (e.g., AES) for messages.
+
+JWT Authentication: Replace the dummy JWT token with actual JWT authentication.
+
+Anti-jamming and Resilience: Implement techniques like frequency hopping and mesh networking.
+
+User Management: Add roles and permissions for different user types.
+
+Data Sharing: Implement secure file transfer features.
+
+UI Improvements: Enhance the UI for better user experience. 
